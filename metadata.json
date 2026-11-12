@@ -1,0 +1,6 @@
+{
+  "name": "Are Ghosts Real? - 3-Minute Animated Movie",
+  "description": "An interactive 3-minute animated film adaptation of Jade Senelier's storyboard: Kyady's spooky journey from an eerie haunted mystery to a hilarious dinner twist.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

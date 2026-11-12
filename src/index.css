@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-movie-title {
+  font-family: 'Creepster', cursive, sans-serif;
+}
+
+.font-comic {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  41% { opacity: 0.8; }
+  42% { opacity: 0.2; }
+  43% { opacity: 0.9; }
+  45% { opacity: 0.3; }
+  46% { opacity: 1; }
+  80% { opacity: 0.9; }
+  81% { opacity: 0.4; }
+  82% { opacity: 1; }
+}
+
+.animate-flicker {
+  animation: flicker 3s infinite;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
+}
